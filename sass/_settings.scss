@@ -21,9 +21,13 @@ $em-base: 16px !default;
   @return $pxWidth / $em-base * 1em;
 }
 
+$base-red: 58;
+$base-green: 111;
+$base-blue: 133;
+
 //// Various global styles
 
-// $body-bg: #fff;
+$body-bg: lighten(rgb($base-red, $base-green, $base-blue), 50%);
 // $body-font-color: #222;
 // $body-font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
 // $body-font-weight: normal;
@@ -39,8 +43,8 @@ $em-base: 16px !default;
 
 //// Colors
 
-// $primary-color: #2ba6cb;
-// $secondary-color: #e9e9e9;
+$primary-color: rgb($base-red, $base-green, $base-blue);
+$secondary-color: rgb($base-green, $base-blue, $base-red);
 // $alert-color: #c60f13;
 // $success-color: #5da423;
 
@@ -803,14 +807,14 @@ $em-base: 16px !default;
 
 //// Background and border styles
 
-// $panel-bg: darken(#fff, 5%);
+$panel-bg: lighten($secondary-color, 50%);
 // $panel-border-style: solid;
-// $panel-border-size: 1px;
+$panel-border-size: 2px;
 
 //// Control how much we darken things on hover
 
-// $panel-function-factor: 10%;
-// $panel-border-color: darken($panel-bg, $panel-function-factor);
+$panel-function-factor: 20%;
+$panel-border-color: darken($panel-bg, $panel-function-factor);
 
 //// Inner padding and bottom margin
 
