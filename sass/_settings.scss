@@ -27,9 +27,9 @@ $base-blue: 95;
 
 //// Various global styles
 
-$body-bg: lighten(rgb($base-red, $base-green, $base-blue), 50%);
+$body-bg: darken(rgb($base-red, $base-green, $base-blue), 10%);
 // $body-font-color: #222;
- $body-font-family: "Helvetica Neue", Tahoma, Geneva, Arial, sans-serif;
+ $body-font-family: 'Roboto', sans-serif;
 // $body-font-weight: normal;
 // $body-font-style: normal;
 
@@ -118,7 +118,7 @@ $secondary-color: rgb($base-green, $base-blue, $base-red);
 
 //// Heading font styles
 
-$header-font-family: "Helvetica Neue", "Helvetica", Helvetica, Tahoma, Geneva, Arial, sans-serif;
+$header-font-family: 'Roboto', sans-serif;
 // $header-font-weight: bold;
 // $header-font-style: normal;
 // $header-font-color: #222;
