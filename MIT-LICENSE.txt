@@ -1,4 +1,4 @@
-Copyright (c) 2011 ZURB, http://www.zurb.com/
+Copyright (c) 2011 Utah Software Craftsmanship group, http://utahsc.org
 
 Permission is hereby granted, free of charge, to any person obtaining
 a copy of this software and associated documentation files (the
